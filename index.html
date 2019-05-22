@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table & Images Bootstrap</title>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			 <h2>Hover Rows</h2>
+		  <p>The .table-hover class enables a hover state on table rows:</p>            
+		  <table class="table table-hover">
+			    <thead>
+			      <tr>
+			        <th>Firstname</th>
+			        <th>Lastname</th>
+			        <th>Email</th>
+			      </tr>
+			    </thead>
+			    <tbody>
+			      <tr>
+			        <td>John</td>
+			        <td>Doe</td>
+			        <td>john@example.com</td>
+			      </tr>
+			      <tr>
+			        <td>Mary</td>
+			        <td>Moe</td>
+			        <td>mary@example.com</td>
+			      </tr>
+			      <tr>
+			        <td>July</td>
+			        <td>Dooley</td>
+			        <td>july@example.com</td>
+			      </tr>
+			    </tbody>
+		  </table>
+		</div>
+
+
+		<div class="row">
+			<h1>Images</h1>
+
+			 <h2>Rounded Corners</h2>
+			 <p>The .img-rounded class adds rounded corners to an image (not available in IE8):</p>            
+			 <img src="images/logo.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236"> 
+			
+
+			  <h2>Thumbnail</h2>
+			  <p>The .img-thumbnail class creates a thumbnail of the image:</p>            
+			  <img src="images/logo.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236"> 	
+		</div>
+
+
+
+		<div class="row">
+			
+		  <h2>Image Gallery</h2>
+		  <p>The .thumbnail class can be used to display an image gallery.</p>
+		  <p>The .caption class adds proper padding and a dark grey color to text inside thumbnails.</p>
+		  <p>Click on the images to enlarge them.</p>
+		  <div class="row">
+		    <div class="col-md-4">
+		      <div class="thumbnail">
+		        <a href="images/logo.jpg" target="_blank">
+		          <img src="images/logo.jpg" alt="Lights" style="width:100%">
+		          <div class="caption">
+		            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+		          </div>
+		        </a>
+		      </div>
+		    </div>
+		    <div class="col-md-4">
+		      <div class="thumbnail">
+		        <a href="images/logo.jpg" target="_blank">
+		          <img src="images/logo.jpg" alt="Nature" style="width:100%">
+		          <div class="caption">
+		            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+		          </div>
+		        </a>
+		      </div>
+		    </div>
+		    <div class="col-md-4">
+		      <div class="thumbnail">
+		        <a href="/w3images/fjords.jpg" target="_blank">
+		          <img src="images/logo.jpg" alt="Fjords" style="width:100%">
+		          <div class="caption">
+		            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+		          </div>
+		        </a>
+		      </div>
+		    </div>
+		  </div>
+
+		</div>
+
+		<div class="row">
+			
+
+			  <h2>Responsive Embed</h2>
+			  <p>Create a responsive video and scale it nicely to the parent element.</p>
+			  
+			  <h2>Aspect ratio 4:3</h2>
+			  <div class="embed-responsive embed-responsive-4by3">
+			    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+			  </div>
+			  
+			  <h2>Aspect ratio 16:9</h2>
+			  <div class="embed-responsive embed-responsive-16by9">
+			    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+			  </div>
+
+
+		</div>
+
+
+
+
+	</div>
+
+</body>
+</html>
